@@ -1,0 +1,9 @@
+#task 3b
+print("what is the price of one apple?")
+price = float(input())
+
+print("how many apples are being purchased?")
+number = int(input())
+
+total = price * number
+print("the total cost is", total)
