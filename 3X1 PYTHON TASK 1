@@ -1,0 +1,19 @@
+#task 1a
+print("hello world")
+
+#task 1b
+name = input("what is your name? ")
+print("hello " + name + ", it is nice to meet you.")
+
+#task 1c
+food = input("what is your favourite food? ")
+print("my favourite food is also " + food)
+
+#task 1d
+age = input("what is your age? ")
+colour = input("what is your favourite colour? ")
+name = input("what is your name? ")
+
+print("your name is " + name)
+print("you are " + age + " years old")
+print(name + "'s favourite colour is " + colour)
