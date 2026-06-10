@@ -1,0 +1,10 @@
+#task 2b
+print("what is the distance?")
+distance = float(input())
+
+print("what is the time?")
+time = float(input())
+
+speed = distance / time
+
+print("the speed is", speed)
