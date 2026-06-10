@@ -1,0 +1,96 @@
+#task 5
+score = 0
+
+# Question 1
+answer = input("1. What is the capital city of France? ").lower()
+
+if answer == "paris":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! The correct answer is Paris.")
+
+# Question 2
+answer = input("2. Which planet is known as the Red Planet? ").lower()
+
+if answer == "mars":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! The correct answer is Mars.")
+
+# Question 3
+answer = input("3. What is 5 + 7? ")
+
+if answer == "12":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! The correct answer is 12.")
+
+# Question 4
+answer = input("4. Who wrote Harry Potter? ").lower()
+
+if answer == "jk rowling" or answer == "j.k. rowling":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! The correct answer is J.K. Rowling.")
+
+# Question 5
+answer = input("5. What is the largest ocean on Earth? ").lower()
+
+if answer == "pacific" or answer == "pacific ocean":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! The correct answer is the Pacific Ocean.")
+
+# Question 6
+answer = input("6. How many continents are there? ")
+
+if answer == "7":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! The correct answer is 7.")
+
+# Question 7
+answer = input("7. What gas do humans need to breathe? ").lower()
+
+if answer == "oxygen":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! The correct answer is Oxygen.")
+
+# Question 8
+answer = input("8. Which country is famous for pizza? ").lower()
+
+if answer == "italy":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! The correct answer is Italy.")
+
+# Question 9
+answer = input("9. What is the fastest land animal? ").lower()
+
+if answer == "cheetah":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! The correct answer is Cheetah.")
+
+# Question 10
+answer = input("10. What is the freezing point of water in Celsius? ")
+
+if answer == "0":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! The correct answer is 0°C.")
+
+# Final score
+print("\nQuiz Complete!")
+print("Your score is", score, "out of 10")
