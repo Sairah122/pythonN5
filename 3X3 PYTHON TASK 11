@@ -1,0 +1,21 @@
+#task 11a
+name = input("enter your name: ")
+
+# validate gender
+gender = input("enter gender (male/female): ").lower()
+
+while gender != "male" and gender != "female":
+    print("please enter only male or female.")
+    gender = input("enter gender (male/female): ").lower()
+
+# validate age
+age = int(input("enter your age: "))
+
+while age < 0 or age > 120:
+    print("age must be between 0 and 120.")
+    age = int(input("enter your age: "))
+
+print("\ndetails entered")
+print("name:", name)
+print("gender:", gender)
+print("age:", age)
