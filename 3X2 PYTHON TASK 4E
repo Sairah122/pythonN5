@@ -1,0 +1,9 @@
+#task 4e
+password = "HELLO123"
+
+user_input = input("enter the password: ")
+
+if user_input == password:
+    print("access granted")
+else:
+    print("access denied")
