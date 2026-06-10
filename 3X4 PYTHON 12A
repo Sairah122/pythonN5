@@ -1,7 +1,0 @@
-#task 12a
-answer = input("what is the capital of france? ")
-
-if answer.lower() == "paris":
-    print("correct!")
-else:
-    print("wrong!")
