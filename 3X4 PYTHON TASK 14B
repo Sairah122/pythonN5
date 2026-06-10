@@ -1,0 +1,6 @@
+#task 14b
+first = input(“first name: “)
+second = input(“second name: “)
+year = input(“year of birth: “)
+username = first + second + year
+print(username)
