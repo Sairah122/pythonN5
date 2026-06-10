@@ -1,0 +1,8 @@
+#task 2d
+print("what is the full price of the item?")
+original_price = float(input())
+
+discount = original_price / 5
+discounted_result = original_price - discount
+
+print("you have saved", discount, "and your new price is", discounted_result)
