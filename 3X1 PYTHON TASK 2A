@@ -1,0 +1,8 @@
+#task 2a
+length = 4
+breadth = 4
+height = 10
+
+area = length * breadth * height
+
+print("the area is " + str(area))
