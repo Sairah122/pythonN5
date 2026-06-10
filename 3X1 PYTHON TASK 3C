@@ -1,0 +1,14 @@
+#task 3c
+print("how much money would you like to borrow?")
+loan = float(input())
+
+print("how many months will you repay the loan over?")
+months = int(input())
+
+interest = loan * 0.15
+total_loan = loan + interest
+
+monthly_payment = total_loan / months
+
+print("total loan including interest is", total_loan)
+print("monthly repayment is", monthly_payment)
