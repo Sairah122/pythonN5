@@ -1,0 +1,9 @@
+#task 13a
+numbers = []
+
+for i in range(5):
+    number = int(input("enter a number: "))
+    numbers.append(number)
+
+print("the numbers you entered are:")
+print(numbers)
