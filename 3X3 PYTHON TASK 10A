@@ -1,0 +1,12 @@
+#task 10a
+meals = ["breakfast", "lunch", "dinner"]
+
+for pupil in range(1, 6):
+    total = 0
+    print("pupil", pupil)
+
+    for meal in meals:
+        calories = int(input("enter calories for " + meal + ": "))
+        total = total + calories
+
+    print("total calories for the day:", total)
