@@ -1,0 +1,16 @@
+#task 12b
+import random
+
+number = random.randint(1, 10)
+
+guess = int(input("guess the number (1-10): "))
+
+while guess != number:
+    if guess < number:
+        print("too low!")
+    else:
+        print("too high!")
+
+    guess = int(input("try again: "))
+
+print("correct! you guessed the number.")
