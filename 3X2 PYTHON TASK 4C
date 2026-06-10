@@ -1,0 +1,7 @@
+#task 4c
+answer = input("what is the capital of france? ")
+
+if answer == "PARIS":
+    print("correct")
+else:
+    print("incorrect")
