@@ -1,8 +1,0 @@
-#task 4b
-print("what is your age?")
-age = int(input())
-
-if age >= 18:
-    print("you are old enough to buy alcohol.")
-else:
-    print("you are not old enough to buy alcohol.")
