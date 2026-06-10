@@ -1,0 +1,17 @@
+#task 9a
+while True:
+    answer = input("what is 2 + 2? ")
+    if answer == "4":
+        break
+
+while True:
+    answer = input("what is the capital of france? ")
+    if answer.lower() == "paris":
+        break
+
+while True:
+    answer = input("what is 5 x 3? ")
+    if answer == "15":
+        break
+
+print("quiz complete!")
