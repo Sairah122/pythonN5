@@ -1,0 +1,10 @@
+#task 13b
+for i in range(5):
+    s = scores[i]
+
+    if s >= 50:
+        grade = "pass"
+    else:
+        grade = "fail"
+
+    print(names[i], grade)
