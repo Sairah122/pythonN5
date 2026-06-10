@@ -1,0 +1,5 @@
+# task 14a
+first = input(“first name: “)
+second = input(“second name: “)
+full_name = first + “ “ + second
+print(full_name)
